@@ -7,7 +7,7 @@
 body {
   font-family: 'Lobster', cursive;
   color: black;
-    background: linear-gradient(145deg, rgba(127, 127, 255, 0.534), rgba(255, 127, 127, 0.534));
+  background: linear-gradient(145deg, rgba(120, 120, 192, 0.692), rgba(122, 79, 79, 0.719));
 }
 
 .navbar {
@@ -18,16 +18,14 @@ body {
   font-size: 2.5rem;
   justify-content: start;
   background: rgb(1, 25, 32) url("./img/angelina-kichukova-1i6mrD_t9gA-unsplash.jpg") no-repeat fixed center;
-  padding: 5px;
-  margin-left: 4rem;
+  padding: 0 25px;
 }
 
 .menu a {
   text-decoration: none;
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   font-family: 'Mochiy Pop One', sans-serif;
-  text-transform: uppercase;
-  border-bottom: 3px transparent solid;
+  border-bottom: 2.5px transparent solid;
   padding-bottom: 0.3rem;
   transition: border-color 0.5s;
 }
@@ -37,13 +35,13 @@ body {
 }
 
 .menu a.current {
-  border-bottom: 5px solid rgb(143, 143, 143);
+  border-bottom: 2.5px solid rgb(143, 143, 143);
 }
 
 .navbar a,
 .navbar span {
   text-decoration: none;
-  color: rgb(248, 216, 180);
+  color: rgb(255, 205, 148);
 }
 
 .logo {
@@ -65,19 +63,19 @@ ul li {
 
 ul {
   display: flex;
-  gap: 7px;
+  gap: 5px;
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-about {
-  height: 100vh;
+.nav-works {
+  height: 90vh;
 }
 
 .bottom-line {
   height: 3px;
   width: 15rem;
-  background: rgb(199, 137, 3);
+  background: rgb(109, 121, 231);
   margin: 0 auto 1rem auto;
 }
 
@@ -92,8 +90,7 @@ ul {
 }
 
 .qualities .fas {
-  padding-bottom: 0.4rem;
-  color: rgb(199, 137, 3);
+    color: rgb(214, 159, 39);
 }
 
 .section-title {
@@ -118,20 +115,7 @@ ul {
   display: flex;
   width: 100%;
   padding: 4% 2%;
-}
-
-.container {
-  display: flex;
-  width: 100%;
-  padding: 4% 2%;
-  color: white;
-  background: rgb(1, 25, 32) url("./img/angelina-kichukova-1i6mrD_t9gA-unsplash.jpg") no-repeat fixed center;
-  height: 10vh;
-}
-
-.container a {
-  text-decoration: none;
-  color: white;
+  height: 70vh;
 }
 
 .works {
@@ -147,27 +131,27 @@ ul {
   flex: 1;
   height: 300px;
   border-radius: 10px;
-    overflow: center;
+  overflow: hidden;
   transition: 0.5s;
-  margin: 0 1%;
+  margin: 0 0.5%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   line-height: 0;
   cursor: pointer;
 }
 
 .box>img {
-  width: 200%;
-  height: calc(100% - 7vh);
+  width: 100%;
+    height: calc(100% - 7vh);
   object-fit: stretch;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 
 .box>span {
-  font-size: 3.8vh;
+  font-size: 3vh;
   display: block;
-  color: rgb(255, 255, 255);
+  color: rgb(214, 214, 214);
   text-align: center;
-  line-height: 2.6;
+  line-height: 2.2;
 }
 
 .box:hover {
@@ -190,9 +174,9 @@ ul {
   padding: 0.5rem;
   text-align: center;
 }
-
-#main-footer .footer-content .social .fab:hover {
-  background: rgb(211, 180, 3);
+.socials i:hover {
+  color: black;
+  background: rgb(255, 242, 169);
 }
 .container {
   display: flex;
