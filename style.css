@@ -12,7 +12,6 @@ body {
 
 .navbar {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   min-height: 10vh;
   font-size: 2.5rem;
@@ -101,11 +100,6 @@ ul {
   margin-top: 5rem;
 }
 
-.lead {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
 .nav-about .lead {
   font-size: 2rem;
   text-align: center;
@@ -136,13 +130,11 @@ ul {
   margin: 0 0.5%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   line-height: 0;
-  cursor: pointer;
 }
 
 .box>img {
   width: 100%;
     height: calc(100% - 7vh);
-  object-fit: stretch;
   transition: 0.8s;
 }
 
