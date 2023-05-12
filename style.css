@@ -12,10 +12,11 @@ body {
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   min-height: 10vh;
   font-size: 2.5rem;
-  justify-content: start;
+  justify-content: space-between;
   background: rgb(1, 25, 32) url("./img/angelina-kichukova-1i6mrD_t9gA-unsplash.jpg") no-repeat fixed center;
   padding: 0 25px;
 }
@@ -109,7 +110,7 @@ ul {
   display: flex;
   width: 100%;
   padding: 4% 2%;
-  height: 70vh;
+  height: 75vh;
 }
 
 .works {
@@ -117,7 +118,7 @@ ul {
   width: 100%;
   padding: 4% 2%;
   box-sizing: border-box;
-  height: 70vh;
+  height: 90vh;
   z-index: 10;
 }
 
@@ -132,7 +133,7 @@ ul {
   line-height: 0;
 }
 
-.box>img {
+.box>a>img {
   width: 100%;
     height: calc(100% - 7vh);
   transition: 0.8s;
@@ -151,7 +152,7 @@ ul {
   height: 450px;
 }
 
-.box:hover>img {
+.box:hover>a>img {
   width: 100%;
   height: 100%;
 }
