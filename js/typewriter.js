@@ -28,10 +28,10 @@ class TypeWriter {
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
     // Initial Type Speed
-    let typeSpeed = 50;
+    let typeSpeed = 20;
 
     if (this.isDeleting) {
-      typeSpeed /= 2;
+      typeSpeed /= 20;
     }
 
     // If word is complete
