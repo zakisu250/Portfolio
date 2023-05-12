@@ -5,8 +5,9 @@
 }
 
 body {
-  background: #050000;
   font-family: 'Lobster', cursive;
+  color: black;
+    background: linear-gradient(145deg, rgba(127, 127, 255, 0.534), rgba(255, 127, 127, 0.534));
 }
 
 .navbar {
@@ -25,8 +26,6 @@ body {
   text-decoration: none;
   font-size: 1.75rem;
   font-family: 'Mochiy Pop One', sans-serif;
-  color: rgb(255, 255, 255);
-  text-shadow: 3px 1px 5px rgb(167, 76, 76), 3px 3px 5px rgb(170, 175, 96);
   text-transform: uppercase;
   border-bottom: 3px transparent solid;
   padding-bottom: 0.3rem;
@@ -62,7 +61,6 @@ ul li {
   display: flex;
   flex: 1;
   margin-right: 2rem;
-  gap: 25px;
 }
 
 ul {
@@ -72,14 +70,9 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-works {
-  height: 100vh;
-}
-
 .nav-about {
   height: 100vh;
 }
-
 
 .bottom-line {
   height: 3px;
@@ -92,7 +85,6 @@ ul {
   display: flex;
   margin-top: 3rem;
   margin-left: 4rem;
-  color: white;
 }
 
 .qualities div {
@@ -106,12 +98,10 @@ ul {
 
 .section-title {
   text-transform: uppercase;
-  width: 100%;
   font-size: 2rem;
   padding-bottom: 0.5rem;
   text-align: center;
   margin-top: 5rem;
-  color: white;
 }
 
 .lead {
@@ -120,8 +110,6 @@ ul {
 }
 
 .nav-about .lead {
-
-  color: rgb(255, 255, 255);
   font-size: 2rem;
   text-align: center;
 }
@@ -130,8 +118,6 @@ ul {
   display: flex;
   width: 100%;
   padding: 4% 2%;
-  box-sizing: border-box;
-  height: 100vh;
 }
 
 .container {
@@ -140,7 +126,6 @@ ul {
   padding: 4% 2%;
   color: white;
   background: rgb(1, 25, 32) url("./img/angelina-kichukova-1i6mrD_t9gA-unsplash.jpg") no-repeat fixed center;
-  box-sizing: border-box;
   height: 10vh;
 }
 
@@ -161,8 +146,8 @@ ul {
 .box {
   flex: 1;
   height: 300px;
-  border-radius: 0 20px 0 20px;
-  overflow: hidden;
+  border-radius: 10px;
+    overflow: center;
   transition: 0.5s;
   margin: 0 1%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
@@ -182,13 +167,12 @@ ul {
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
-  height: 10vh;
   line-height: 2.6;
 }
 
 .box:hover {
-  flex: 1 5 50%;
-  height: 600px;
+  flex: 1 5 30%;
+  height: 450px;
 }
 
 .box:hover>img {
@@ -207,11 +191,19 @@ ul {
   text-align: center;
 }
 
-#main-footer .footer-content .social .fab {
-  line-height: 20px;
-  text-align: center;
-}
-
 #main-footer .footer-content .social .fab:hover {
   background: rgb(211, 180, 3);
+}
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  color: white;
+  background: rgb(1, 25, 32) url("./img/angelina-kichukova-1i6mrD_t9gA-unsplash.jpg") no-repeat fixed center;
+  height: 10vh;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
 }
