@@ -7,7 +7,7 @@
 body {
   font-family: 'Lobster', cursive;
   color: rgb(255, 255, 255);
-    background: linear-gradient(145deg, rgb(112, 48, 48), rgb(49, 49, 121))
+  background: linear-gradient(145deg, rgb(112, 48, 48), rgb(49, 49, 121))
 }
 
 .navbar {
@@ -15,7 +15,8 @@ body {
   flex-wrap: wrap;
   align-items: center;
   min-height: 10vh;
-  font-size: 2.5rem;
+  /* position: fixed; */
+    font-size: 2rem;
   justify-content: space-between;
   background: rgb(1, 25, 32) url("./img/angelina-kichukova-1i6mrD_t9gA-unsplash.jpg") no-repeat fixed center;
   padding: 0 25px;
@@ -47,6 +48,25 @@ body {
 .logo {
   margin-right: 10px;
   font-family: 'Lobster', cursive;
+}
+.ani-head {
+  color: rgb(255, 205, 148);
+  display: flex;
+  font-family: 'Mochiy Pop One', sans-serif;
+  flex: 1;
+  place-items: center;
+}
+
+.let {
+  transition: 0.3s;
+  transform: translateX(0);
+}
+
+.let:hover {
+  transform: translateY(-1rem);
+  background: linear-gradient(120deg, hsl(19, 100%, 50%), hsl(56, 100%, 50%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .txt-type {
